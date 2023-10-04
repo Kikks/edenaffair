@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Satoshi', sans-serif;
+    color: #1b2127;
+    background: #fefefe;
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  @apply overflow-x-hidden font-renade;
+}
+
+.container {
+  @apply mx-auto max-w-[1400px];
+}
+
+#root {
+  @apply relative;
+}
+
+.section-gallery {
+  display: grid;
+}
+
+.gallery {
+  &__container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    grid-auto-rows: 14rem;
+
+    @media only screen and (max-width: 1100px) {
+      grid-template-columns: repeat(auto-fit, minmax(calc(24 * 9px), 1fr));
+      grid-auto-rows: calc(24 * 9px);
+    }
+
+    @media only screen and (max-width: 900px) {
+      grid-template-columns: repeat(auto-fit, minmax(calc(24 * 8px), 1fr));
+      grid-auto-rows: calc(24 * 8px);
+    }
+
+    @media only screen and (max-width: 600px) {
+      grid-template-columns: repeat(auto-fit, minmax(calc(24 * 5.5px), 1fr));
+      grid-auto-rows: calc(24 * 5.5px);
+    }
+
+    @media only screen and (max-width: 315px) {
+      grid-template-columns: repeat(auto-fit, minmax(calc(24 * 4.5px), 1fr));
+      grid-auto-rows: calc(24 * 4.5px);
+    }
+  }
+
+  &__image {
+    background-size: cover;
+    background-position: center center;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #ccc;
+  }
+}
+
+.image {
+  &--tall {
+    grid-row: span 2 / auto;
+  }
+
+  &--wide {
+    grid-column: span 2 / auto;
+  }
+}
+
+.countdown-bg {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url('/assets/images/header-image.jpg') center center fixed;
+}
