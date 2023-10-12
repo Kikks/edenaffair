@@ -27,7 +27,7 @@ const OurStory = () => {
       </div>
 
       <div className="container flex w-full flex-col items-center justify-center space-y-5 py-20 md:flex-row md:space-x-10 md:space-y-0">
-        <div className="relative order-1 mx-auto flex aspect-square w-[90%] max-w-[400px] items-center justify-center">
+        <div className="relative order-1 mx-auto flex aspect-square w-[90%] max-w-[400px] items-center justify-center md:mx-0">
           <figure
             data-aos={smallScreen ? '' : 'fade-in'}
             data-aos-delay={smallScreen ? 0 : 400}
@@ -90,7 +90,7 @@ const OurStory = () => {
           </div>
         </div>
 
-        <div className="relative order-1 mx-auto flex aspect-square w-[90%] max-w-[400px] items-center justify-center md:order-2">
+        <div className="relative order-1 mx-auto flex aspect-square w-[90%] max-w-[400px] items-center justify-center md:order-2 md:mx-0">
           <figure
             data-aos={smallScreen ? '' : 'fade-in'}
             data-aos-delay={smallScreen ? 0 : 400}
