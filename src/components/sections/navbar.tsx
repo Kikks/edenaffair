@@ -26,7 +26,7 @@ const Navbar = () => {
         isScrolled
           ? 'bg-black/20 mix-blend-difference backdrop-blur-md'
           : 'bg-transparent'
-      } fixed z-[200] flex w-full justify-center p-5 duration-500 md:px-10`}
+      } absolute z-[200] flex w-full justify-center p-5 duration-500 md:fixed md:px-10`}
     >
       <div className="container flex items-center justify-between">
         <div

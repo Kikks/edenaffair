@@ -7,7 +7,7 @@ const Tag = () => {
 
   return (
     <section className="relative flex h-screen w-full items-center justify-center overflow-hidden bg-[#FFFBF2]">
-      <div className="z-10 flex w-full flex-col items-center space-y-5">
+      <div className="z-10 flex w-full flex-col items-center space-y-5 pb-40 md:pb-0">
         <div data-aos="fade-in" className="z-10">
           <Icon icon="noto-v1:clinking-glasses" className="text-7xl" />
         </div>
