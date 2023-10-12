@@ -47,9 +47,14 @@ const Events = () => {
                     <h3 className="text-xl font-bold text-[#222] group-hover:text-[#eee]">
                       {event.title}
                     </h3>
-                    <h1 className="text-sm font-medium text-[#222] group-hover:text-[#eee]">
-                      {event.date}
-                    </h1>
+                    <div>
+                      <h5 className="text-sm font-medium text-[#222] group-hover:text-[#eee]">
+                        {event.date}
+                      </h5>
+                      <h5 className="text-sm font-medium text-[#222] group-hover:text-[#eee]">
+                        {event.time}
+                      </h5>
+                    </div>
                   </div>
                 </div>
               </div>

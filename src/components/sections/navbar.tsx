@@ -23,7 +23,9 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        isScrolled ? 'bg-white/20 backdrop-blur-md' : 'bg-transparent'
+        isScrolled
+          ? 'bg-black/20 mix-blend-difference backdrop-blur-md'
+          : 'bg-transparent'
       } fixed z-[200] flex w-full justify-center p-5 duration-500 md:px-10`}
     >
       <div className="container flex items-center justify-between">
@@ -36,7 +38,7 @@ const Navbar = () => {
         >
           <h2
             className={`${
-              isScrolled ? 'text-black' : 'text-white'
+              isScrolled ? 'text-white' : 'text-white'
             } font-bold duration-500`}
           >
             Keren Weds Israel
@@ -59,7 +61,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={500}
                 className={`cursor-pointer font-medium duration-500 ${
-                  isScrolled ? 'text-black' : 'text-white'
+                  isScrolled ? 'text-white' : 'text-white'
                 }`}
               >
                 {link}
