@@ -57,16 +57,22 @@ const OurStory = () => {
           </h3>
           <div className="space-y-3">
             <p data-aos="fade-up" data-aos-delay={smallScreen ? 0 : 200}>
-              I met her among a group of other people in church but it was
-              nothing serious, then a couple of mindless "hello" here and there.
-              I thought she was pretty but I was minding my business.
+              A few months after I joined the church, I was chatting with a
+              group of mutual friends after a midweek service, and there she
+              was, a captivating beauty that had caught my eye before.
+              Serendipity seemed to bring us together within the same social
+              circles repeatedly. Then, on a particularly enchanting evening,
+              she took the initiative and said, "Why don't we talk?" From that
+              moment, our conversations flowed effortlessly, and we quickly
+              became inseparable.
             </p>
             <p data-aos="fade-up" data-aos-delay={smallScreen ? 0 : 400}>
-              Then one that beautiful day after midweek service, she approached
-              me and said "Why don't we talk?"
-            </p>
-            <p data-aos="fade-up" data-aos-delay={smallScreen ? 0 : 600}>
-              We've not stopped talking since then.
+              For two years, we nurtured a deep, profound friendship, and
+              countless moments of joy. When I finally gathered the courage to
+              ask her out, she answered, an obvious "yes." And so, as written in
+              the stars our love story began—a testament to the power of fate,
+              friendship, and love, where two souls found their perfect match,
+              and the rest, as they say, is history.
             </p>
           </div>
         </div>
@@ -82,16 +88,17 @@ const OurStory = () => {
           </h3>
           <div className="space-y-3">
             <p data-aos="fade-up" data-aos-delay={smallScreen ? 0 : 200}>
-              I met her among a group of other people in church but it was
-              nothing serious, then a couple of mindless "hello" here and there.
-              I thought she was pretty but I was minding my business.
+              I actually approached him first. I saw him in church one Sunday, I
+              walked up to him and said “Hi, my name is Keren. What’s yours?” We
+              spoke very briefly and then it was a couple of hellos here and
+              there. Then one day, after midweek service in church, I walked up
+              to him again and said, “why don’t we talk” Honestly, at the time,
+              it was all harmless and I was just being very friendly.
             </p>
             <p data-aos="fade-up" data-aos-delay={smallScreen ? 0 : 400}>
-              Then one that beautiful day after midweek service, she approached
-              me and said "Why don't we talk?"
-            </p>
-            <p data-aos="fade-up" data-aos-delay={smallScreen ? 0 : 600}>
-              We've not stopped talking since then.
+              He sent me a dm that night on Twitter, we started talking and we
+              haven’t stopped. He became one of my fav people in a very short
+              time and now, the love of my life!
             </p>
           </div>
         </div>

@@ -85,26 +85,26 @@ export const events = [
   {
     icon: 'healthicons:group-discussion-meetingx3-outline',
     title: 'The Introduction',
-    date: 'Thursday November 09, 2023',
+    date: 'Saturday September 09, 2023',
     time: '12:00 PM',
   },
   {
     icon: 'la:glass-cheers',
     title: 'Traditional Cermony',
     date: 'Thursday November 09, 2023',
-    time: '02:00 PM',
+    time: '01:00 PM',
   },
   {
     icon: 'ph:church-duotone',
-    title: 'Church Cermony',
+    title: 'Church Joining',
     date: 'Saturday November 11, 2023',
-    time: '11:00 AM',
+    time: '10:30 AM',
   },
   {
     icon: 'game-icons:party-flags',
     title: 'Reception',
     date: 'Saturday November 11, 2023',
-    time: '01:30 AM',
+    time: '01:00 PM',
   },
 ];
 

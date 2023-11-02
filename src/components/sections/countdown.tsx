@@ -10,7 +10,7 @@ const Countdown = () => {
   });
 
   const startTimer = () => {
-    const countDownTime = new Date('Nov 09, 2023 12:00:00').getTime();
+    const countDownTime = new Date('Nov 11, 2023 10:30:00').getTime();
     const x = setInterval(() => {
       const currentTime = new Date().getTime();
 
@@ -59,7 +59,7 @@ const Countdown = () => {
             data-aos="fade-up"
             className="text-center font-pacifico text-xl font-medium text-white md:text-3xl"
           >
-            We're tying the knot on the 9th of November, 2023
+            We're tying the knot on the 11th of November, 2023
           </h3>
 
           <div
