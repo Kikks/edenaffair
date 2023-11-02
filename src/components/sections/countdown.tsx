@@ -50,7 +50,7 @@ const Countdown = () => {
   }, []);
 
   return (
-    <section className="countdown-bg w-full py-20">
+    <section className="countdown-bg flex h-screen max-h-[800px] w-full items-center py-20">
       {complete ? (
         <div className="min-h-[300px] w-full" />
       ) : (

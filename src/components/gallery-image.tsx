@@ -16,12 +16,13 @@ const GalleryImage: FC<GalleryImageProps> = ({
   ...rest
 }) => (
   <motion.div
-    className={`gallery__image ${className} overflow-hidden`}
+    className={`gallery__image ${className} relative overflow-hidden`}
     data-aos="fade-up"
     onClick={onClick}
     {...rest}
   >
     <LazyLoadImage alt="" src={url} className="h-full w-full object-cover" />
+    <div className="absolute inset-0 h-full w-full" />
   </motion.div>
 );
 

@@ -26,24 +26,22 @@ const Navbar = () => {
         isScrolled
           ? 'bg-black/20 mix-blend-difference backdrop-blur-md'
           : 'bg-transparent'
-      } absolute z-[200] flex w-full justify-center p-5 duration-500 md:fixed md:px-10`}
+      } absolute z-[200] flex w-full justify-center px-5 py-1 duration-500 md:fixed md:px-10`}
     >
       <div className="container flex items-center justify-between">
-        <div
-          className=""
+        <figure
+          className="aspect-square h-20 w-20 md:h-24 md:w-24"
           data-aos="fade-right"
           data-aos-delay="500"
           data-aos-once="true"
           data-aos-offset="-100"
         >
-          <h2
-            className={`${
-              isScrolled ? 'text-white' : 'text-white'
-            } font-bold duration-500`}
-          >
-            Keren Weds Israel
-          </h2>
-        </div>
+          <img
+            src={isScrolled ? '/logo--white.svg' : '/logo--white.svg'}
+            alt=""
+            className="h-full w-full object-contain"
+          />
+        </figure>
 
         <div className="hidden items-center justify-center space-x-10 md:flex">
           {links.map((link, index) => (

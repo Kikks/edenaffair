@@ -31,13 +31,19 @@ const OurStory = () => {
           <figure
             data-aos={smallScreen ? '' : 'fade-in'}
             data-aos-delay={smallScreen ? 0 : 400}
-            className="aspect-square w-[90%] overflow-hidden rounded-full md:h-full md:w-full"
+            className="relative aspect-square w-[90%] overflow-hidden rounded-full md:h-full md:w-full"
           >
             <img
-              src="/assets/images/header-image.jpg"
+              src={
+                smallScreen
+                  ? 'https://res.cloudinary.com/kikks/image/upload/c_fill,g_north,h_500,w_500/v1698944432/keren-weds-israel/jjujxmy7lktiru6cnpfg.jpg'
+                  : 'https://res.cloudinary.com/kikks/image/upload/c_fill,g_north,h_1000,w_1000/v1698944432/keren-weds-israel/jjujxmy7lktiru6cnpfg.jpg'
+              }
               alt=""
-              className="h-full w-full object-cover"
+              className="h-full w-full select-none object-cover"
             />
+
+            <div className="absolute inset-0 flex h-full w-full items-center justify-center" />
           </figure>
           <div className="absolute bottom-[12%] right-[12%] z-20 h-8 w-8 rounded-full bg-gradient-to-r from-[#FFFBF2] to-[#ffcc56] md:bottom-[5%] md:right-[5%] md:h-14 md:w-14" />
         </div>
@@ -94,13 +100,19 @@ const OurStory = () => {
           <figure
             data-aos={smallScreen ? '' : 'fade-in'}
             data-aos-delay={smallScreen ? 0 : 400}
-            className="aspect-square w-[90%] overflow-hidden rounded-full md:h-full md:w-full"
+            className="relative aspect-square w-[90%] overflow-hidden rounded-full md:h-full md:w-full"
           >
             <img
-              src="/assets/images/header-image.jpg"
+              src={
+                smallScreen
+                  ? 'https://res.cloudinary.com/kikks/image/upload/c_fill,g_north,h_500,w_500/v1698944432/keren-weds-israel/uvrdx5w4xee4bmaa93xz.jpg'
+                  : 'https://res.cloudinary.com/kikks/image/upload/c_fill,g_north,h_1000,w_1000/v1698944432/keren-weds-israel/uvrdx5w4xee4bmaa93xz.jpg'
+              }
               alt=""
-              className="h-full w-full object-cover"
+              className="h-full w-full select-none object-cover"
             />
+
+            <div className="absolute inset-0 flex h-full w-full items-center justify-center" />
           </figure>
           <div className="absolute bottom-[12%] left-[12%] z-20 h-8 w-8 rounded-full bg-gradient-to-l from-[#FFFBF2] to-[#ffcc56] md:bottom-[5%] md:left-[5%] md:h-14 md:w-14" />
         </div>

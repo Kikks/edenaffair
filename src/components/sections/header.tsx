@@ -25,8 +25,8 @@ const Header = () => {
           }}
           src={
             isMobile
-              ? '/assets/images/header-image.jpg'
-              : '/assets/images/header-image-desktop.jpg'
+              ? 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_auto/dpr_auto/v1698944427/keren-weds-israel/oflpetjywkqhtboirbau.jpg'
+              : 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_auto/dpr_auto/v1698944427/keren-weds-israel/oflpetjywkqhtboirbau.jpg'
           }
           alt=""
           className="h-full w-full object-cover"
