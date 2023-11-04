@@ -8,75 +8,99 @@ export const links = ['Events', 'Our Story', 'Gallery'];
 
 export const images = [
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/yrxvu8pvahmhrngg8fa5.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/sfo4z1t7hko0udndi38t.jpg',
     className: 'image--tall',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/z9t63z3jo6rquhk8ftev.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/rcwx5hbd8aelrwzjvdpf.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/h3m3vbjjppvwq0kumnvr.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/zym0sd9ntfu6ysndvobc.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/vgz85qtaisclhhkanykz.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/eo7zkvhgyabwofykkfhh.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/qdgutondvxckxgycyrbg.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/byxbcrur86hnxq4p2ban.jpg',
     className: 'image--wide',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/l0jbl7qddncayeeanlpt.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/vyksdlfsgseow9mv0sac.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/kwfbrg2jtp8iwbhcq2cv.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/jygzih0ecirnunbzotsi.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/qmqtlwi1prhmz51xidey.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/a5oqozqnmnqiiamnzn3d.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/xesgezoxnm6ecpbokn62.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/chh8ngqu6yrretqrk2er.jpg',
     className: 'image--tall',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/wpwx9xeecnl0ez4eg0vx.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/dtwpjxrao1hvlvvxsmp3.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/oflpetjywkqhtboirbau.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,g_south,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/twxyaticeu6yi42duyqo.jpg',
     className: 'image--wide',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/u1aps4q0voqr3usabis5.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_south,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/q9ncwxew0xz9eaqlsnao.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/y464gfs5pdqedb5kfe5s.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/gepy4smsjubxi6aitu85.jpg',
     className: 'image--tall',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/uwfsqq3hzovl5bhoam1a.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/hgaxw40wuv2uvb2kay20.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_fill,g_north,w_1200/dpr_auto/v1698944434/keren-weds-israel/jmftrhsil4o1ocyms5y8.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_fill,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/x55hie8znehffqkdaswj.jpg',
     className: 'image--wide',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/j6iirmhfm4ftxsb6cy40.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/di3adtleuba86itikmun.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/etseb8oxuysyymalp0vs.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/bvvbez1ugbpiwrwcyxjd.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/bobz4lbt2yx3j1tilaqf.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/lfqr7irnrbyov60zsqjw.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/fsntghoq9lbegmrxq874.jpg',
+    className: 'image--wide',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_south,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/vfqqlb4nnbccjwuknudh.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_crop,g_face,w_600/keren-weds-israel/website-images/lbsynijzkiz7ppcveqpe.jpg',
+    className: 'image--tall',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/eytotuujd6oloxg5pdr1.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/isbmacfzoxmue1io6y6z.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/uuyc2pr5fpksq6infahc.jpg',
     className: '',
   },
 ];

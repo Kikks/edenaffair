@@ -118,9 +118,9 @@ const Registry = () => {
                         Thank you for being a part of our special day.
                       </span>
                       <span>
-                        Instead of traditional gifts, we've set up accounts
-                        where your contributions can help us build our future
-                        together. No amount is too small.
+                        In preference to traditional gifts, we've set up
+                        accounts where your contributions can help us build our
+                        future together. No amount is too small.
                       </span>
                       <span>Your love and support mean the world to us.</span>
                     </motion.p>
