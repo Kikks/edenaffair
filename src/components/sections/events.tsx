@@ -16,9 +16,9 @@ const Events = () => {
 
   return (
     <section id="Events" className="relative flex w-full justify-center p-5">
-      <div className="events-bg absolute left-0 top-0 h-full w-full"></div>
+      <div className="events-bg absolute left-0 top-0 size-full"></div>
 
-      <div className="container z-[10] flex flex-col items-center justify-center py-20 lg:min-h-screen">
+      <div className="container z-10 flex flex-col items-center justify-center py-20 lg:min-h-screen">
         <div ref={ref} className="relative z-10 h-14 w-full sm:h-24 lg:h-28">
           <AnimatedHeader
             title="Events"
@@ -27,7 +27,7 @@ const Events = () => {
           />
         </div>
 
-        <div className="grid grid-cols-1 items-center justify-between divide-y md:grid-cols-2 md:divide-x md:divide-y-0 lg:grid-cols-4">
+        <div className="grid grid-cols-1 items-center justify-between divide-y md:grid-cols-3 md:divide-x md:divide-y-0 lg:grid-cols-3">
           {events.map((event, index) => (
             <Tilt key={index} tiltEnable={!mobileScreen}>
               <div

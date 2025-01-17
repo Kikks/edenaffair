@@ -8,127 +8,121 @@ export const links = ['Events', 'Our Story', 'Gallery'];
 
 export const images = [
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/sfo4z1t7hko0udndi38t.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_1200/dpr_auto/v1737147044/edenaffair/imfwfydggbndvkzek5br.jpg',
     className: 'image--tall',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/rcwx5hbd8aelrwzjvdpf.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/c_fill/c_scale,w_600/v1737147044/edenaffair/x9begcvx0vzvorqihxdl.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/zym0sd9ntfu6ysndvobc.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1737147044/edenaffair/kvcwpwmuy6d9rispnedt.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/eo7zkvhgyabwofykkfhh.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/c_fill/c_scale,w_600/v1737147041/edenaffair/qbjb6yonglk6o8jojkh8.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/byxbcrur86hnxq4p2ban.jpg',
-    className: 'image--wide',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_1200/dpr_auto/v1737147044/edenaffair/uhvl63baj90ivrxf93xi.jpg',
+    className: 'image--wide image--tall',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/vyksdlfsgseow9mv0sac.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1737147044/edenaffair/ue2pbeglzi6gimd9acgk.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/jygzih0ecirnunbzotsi.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1737147044/edenaffair/mjzwo6da14ifz67spity.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/a5oqozqnmnqiiamnzn3d.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1737147044/edenaffair/pckehnbza1wca5rtbrwr.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/chh8ngqu6yrretqrk2er.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_1200/dpr_auto/v1737147044/edenaffair/qrjgz5wdmmjj4ytf8lzj.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1737147044/edenaffair/b8f3zsnfrqswiib1u5s7.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_south,w_1200/dpr_auto/v1737147044/edenaffair/x55vqnauxrah1nlnl1uz.jpg',
+    className: 'image--wide image--tall',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_south,w_600/dpr_auto/v1737147044/edenaffair/xhsntmdosgakgvh1ppsq.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_1200/dpr_auto/v1737147044/edenaffair/omzieclpc5tqftkrbilo.jpg',
     className: 'image--tall',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/dtwpjxrao1hvlvvxsmp3.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1737147044/edenaffair/otfczyrrgnoechuucmlb.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,g_south,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/twxyaticeu6yi42duyqo.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_fill,g_north,w_1200/dpr_auto/v1737147044/edenaffair/syza9ylmwyzfowgodugi.jpg',
+    className: 'image--wide image--tall',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_fill,g_north,w_600/dpr_auto/v1737147044/edenaffair/iwrpbvn0p7anojswf1hc.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1737147044/edenaffair/kov8n73necegpsznpuet.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1737147044/edenaffair/f4ku0iuzcrctlkyk1e2z.jpg',
+    className: '',
+  },
+  {
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1737147044/edenaffair/yaa52meh3kehyeayrs7x.jpg',
     className: 'image--wide',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_south,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/q9ncwxew0xz9eaqlsnao.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1737147044/edenaffair/e3vegrhvwxeyhvzi0v9k.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/gepy4smsjubxi6aitu85.jpg',
-    className: 'image--tall',
-  },
-  {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/hgaxw40wuv2uvb2kay20.jpg',
-    className: '',
-  },
-  {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_fill,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/x55hie8znehffqkdaswj.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/edenaffair/wpvyjf9fd4txhodccjmi.jpg',
     className: 'image--wide',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/di3adtleuba86itikmun.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_south,w_600/dpr_auto/v1737147044/edenaffair/w26kkzyqcpdhke8kdkyi.jpg',
     className: '',
   },
   {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/bvvbez1ugbpiwrwcyxjd.jpg',
+    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1737147044/edenaffair/mxrpc93bqpkn7ibl6kow.jpg',
     className: '',
   },
-  {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/lfqr7irnrbyov60zsqjw.jpg',
-    className: '',
-  },
-  {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_1200/dpr_auto/v1698944434/keren-weds-israel/website-images/fsntghoq9lbegmrxq874.jpg',
-    className: 'image--wide',
-  },
-  {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_south,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/vfqqlb4nnbccjwuknudh.jpg',
-    className: '',
-  },
-  {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_crop,g_face,w_600/keren-weds-israel/website-images/lbsynijzkiz7ppcveqpe.jpg',
-    className: 'image--tall',
-  },
-  {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/eytotuujd6oloxg5pdr1.jpg',
-    className: '',
-  },
-  {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/isbmacfzoxmue1io6y6z.jpg',
-    className: '',
-  },
-  {
-    url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1698944434/keren-weds-israel/website-images/uuyc2pr5fpksq6infahc.jpg',
-    className: '',
-  },
+  // {
+  //   url: 'https://res.cloudinary.com/kikks/image/upload/ar_1:1,c_fill/c_scale,g_north,w_600/dpr_auto/v1737147044/edenaffair/.jpg',
+  //   className: '',
+  // },
 ];
 
 export const events = [
   {
-    icon: 'healthicons:group-discussion-meetingx3-outline',
-    title: 'The Introduction',
-    date: 'Saturday September 09, 2023',
-    time: '12:00 PM',
+    icon: 'ph:church-duotone',
+    title: 'Church Joining',
+    date: 'Saturday February 01, 2025',
+    time: '09:00 AM',
   },
   {
     icon: 'la:glass-cheers',
     title: 'Traditional Cermony',
-    date: 'Thursday November 09, 2023',
-    time: '01:00 PM',
-  },
-  {
-    icon: 'ph:church-duotone',
-    title: 'Church Joining',
-    date: 'Saturday November 11, 2023',
-    time: '10:30 AM',
+    date: 'Saturday February 01, 2025',
+    time: '12:30 PM',
   },
   {
     icon: 'game-icons:party-flags',
     title: 'Reception',
-    date: 'Saturday November 11, 2023',
-    time: '01:00 PM',
+    date: 'Saturday February 01, 2025',
+    time: '12:30 PM',
   },
 ];
 

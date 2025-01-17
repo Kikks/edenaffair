@@ -10,7 +10,7 @@ const Countdown = () => {
   });
 
   const startTimer = () => {
-    const countDownTime = new Date('Nov 11, 2023 10:30:00').getTime();
+    const countDownTime = new Date('Feb 1, 2025 10:30:00').getTime();
     const x = setInterval(() => {
       const currentTime = new Date().getTime();
 

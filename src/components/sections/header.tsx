@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <header className="relative h-screen w-full items-center justify-center bg-gray-400 p-2 sm:p-5">
-      <figure className="absolute left-0 top-0 z-[1] h-full w-full overflow-hidden">
+      <figure className="absolute left-0 top-0 z-[1] size-full overflow-hidden">
         <motion.img
           animate={{
             scale: [1, 1.2, 1],
@@ -25,15 +25,15 @@ const Header = () => {
           }}
           src={
             isMobile
-              ? 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_auto/dpr_auto/v1698944427/keren-weds-israel/oflpetjywkqhtboirbau.jpg'
-              : 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_auto/dpr_auto/v1698944427/keren-weds-israel/oflpetjywkqhtboirbau.jpg'
+              ? 'https://res.cloudinary.com/kikks/image/upload/ar_9:16,c_fill/c_scale,w_auto/dpr_auto/v1737147044/edenaffair/f4ku0iuzcrctlkyk1e2z.jpg'
+              : 'https://res.cloudinary.com/kikks/image/upload/ar_16:9,c_fill/c_scale,w_auto/dpr_auto/v1737147044/edenaffair/f4ku0iuzcrctlkyk1e2z.jpg'
           }
           alt=""
-          className="h-full w-full object-cover"
+          className="size-full object-cover"
         />
       </figure>
 
-      <div className="absolute left-0 top-0 z-[2] h-full w-full bg-gradient-to-t from-black/80 to-black/20" />
+      <div className="absolute left-0 top-0 z-[2] size-full bg-gradient-to-t from-black/80 to-black/20" />
 
       <div className="container flex h-full flex-col items-center justify-center space-y-5">
         <div className="relative z-10 h-14 w-full sm:h-24 lg:h-28">
@@ -48,7 +48,7 @@ const Header = () => {
         </div>
 
         <div className="relative z-10 flex w-full items-center justify-center text-center">
-          {['#LifeIsEaziWithKeren'].map((text, index) => (
+          {['#edenaffair'].map((text, index) => (
             <AnimatedText
               key={index}
               visible
@@ -60,7 +60,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-5 left-[50%] z-[50] flex translate-x-[-50%] translate-y-0 items-center justify-center">
+      <div className="absolute bottom-5 left-1/2 z-50 flex -translate-x-1/2 translate-y-0 items-center justify-center">
         <motion.a
           href="#Events"
           animate={{
