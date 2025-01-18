@@ -86,11 +86,11 @@ const Registry = () => {
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0 }}
-                className="z-[20001] flex h-[85vh] max-h-[800px] w-[90%] max-w-[1000px] flex-col items-center rounded-lg bg-white shadow-xl"
+                className="z-[20001] flex h-[60vh] max-h-[800px] w-[90%] max-w-[700px] flex-col items-center rounded-lg bg-white shadow-xl"
               >
                 <div className="flex w-full justify-end p-5">
                   <button
-                    className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50"
+                    className="flex size-10 items-center justify-center rounded-full bg-gray-50"
                     onClick={() => setShowModal(false)}
                   >
                     <Icon icon="mdi:close" className="text-[#222]" />
@@ -118,9 +118,8 @@ const Registry = () => {
                         Thank you for being a part of our special day.
                       </span>
                       <span>
-                        In preference to traditional gifts, we've set up
-                        accounts where your contributions can help us build our
-                        future together. No amount is too small.
+                        All gifts should be converted to cash as we do not have
+                        a wish list.
                       </span>
                       <span>Your love and support mean the world to us.</span>
                     </motion.p>
@@ -132,18 +131,18 @@ const Registry = () => {
                     variants={containerVariant}
                     initial="hidden"
                     animate="visible"
-                    className="flex flex-wrap items-start justify-center"
+                    className="flex w-full flex-wrap items-start justify-center"
                   >
                     <motion.div
                       variants={itemVariant}
-                      className="mb-10 flex w-full flex-col items-start space-y-1 px-5 md:mb-5 md:w-1/3"
+                      className="mb-10 flex w-full flex-col items-center space-y-1 px-5 md:mb-5"
                     >
                       <div className="!mb-3 flex items-center space-x-2">
                         <figure className="aspect-square h-4 w-7">
                           <img
                             src="https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg"
                             alt=""
-                            className="h-full w-full object-cover"
+                            className="size-full object-cover"
                           />
                         </figure>
                         <span className="text-sm font-bold text-[#222]">
@@ -155,134 +154,20 @@ const Registry = () => {
                         <span className="mr-3 text-xs font-bold">
                           Bank Account:
                         </span>
-                        <span className="text-xs font-medium">Access Bank</span>
+                        <span className="text-xs font-medium">Opay</span>
                       </p>
                       <p>
                         <span className="mr-3 text-xs font-bold">
                           Account Number:
                         </span>
-                        <span className="text-xs font-medium">1553583062</span>
+                        <span className="text-xs font-medium">7085889157</span>
                       </p>
                       <p>
                         <span className="mr-3 text-xs font-bold">
                           Account Holder:
                         </span>
                         <span className="text-xs font-medium">
-                          Keren Jesulayomi Sanni
-                        </span>
-                      </p>
-                    </motion.div>
-
-                    <motion.div
-                      variants={itemVariant}
-                      className="mb-10 flex w-full flex-col items-start space-y-1 px-5 md:mb-5 md:w-1/3"
-                    >
-                      <div className="!mb-3 flex items-center space-x-2">
-                        <figure className="aspect-square h-4 w-7">
-                          <img
-                            // USA flag
-                            src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
-                            alt=""
-                            className="h-full w-full object-cover"
-                          />
-                        </figure>
-                        <span className="text-sm font-bold text-[#222]">
-                          USD
-                        </span>
-                      </div>
-
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          Account Holder:
-                        </span>
-                        <span className="text-xs font-medium">
-                          Israel Arunah
-                        </span>
-                      </p>
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          Routing number:
-                        </span>
-                        <span className="text-xs font-medium">026073150</span>
-                      </p>
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          Account number:
-                        </span>
-                        <span className="text-xs font-medium">30975399</span>
-                      </p>
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          SWIFT/BIC:
-                        </span>
-                        <span className="text-xs font-medium">CMFGUS33</span>
-                      </p>
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          Account number:
-                        </span>
-                        <span className="text-xs font-medium">8312359784</span>
-                      </p>
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          Wise's address:
-                        </span>
-                        <span className="text-xs font-medium">
-                          30 W. 26th Street, Sixth Floor New York NY 10010
-                          United States
-                        </span>
-                      </p>
-                    </motion.div>
-
-                    <motion.div
-                      variants={itemVariant}
-                      className="mb-10 flex w-full flex-col items-start space-y-1 px-5 md:mb-5 md:w-1/3"
-                    >
-                      <div className="!mb-3 flex items-center space-x-2">
-                        <figure className="aspect-square h-4 w-7">
-                          <img
-                            src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
-                            alt=""
-                            className="h-full w-full object-cover"
-                          />
-                        </figure>
-                        <span className="text-sm font-bold text-[#222]">
-                          GBP
-                        </span>
-                      </div>
-
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          Account Holder:
-                        </span>
-                        <span className="text-xs font-medium">
-                          Israel Arunah
-                        </span>
-                      </p>
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          Sort code:
-                        </span>
-                        <span className="text-xs font-medium">23-14-70</span>
-                      </p>
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          Account number:
-                        </span>
-                        <span className="text-xs font-medium">30975399</span>
-                      </p>
-                      <p>
-                        <span className="mr-3 text-xs font-bold">IBAN:</span>
-                        <span className="text-xs font-medium">
-                          GB65 TRWI 2314 7030 9753 99
-                        </span>
-                      </p>
-                      <p>
-                        <span className="mr-3 text-xs font-bold">
-                          Wise's address:
-                        </span>
-                        <span className="text-xs font-medium">
-                          56 Shoreditch High Street London E1 6JJ United Kingdom
+                          Dorcas Adeyemo
                         </span>
                       </p>
                     </motion.div>
@@ -302,7 +187,7 @@ const Registry = () => {
             exit={{ opacity: 0 }}
             key="registry"
             onClick={() => setShowModal(true)}
-            className={`fixed bottom-5 left-[50%] z-[1000] flex translate-x-[-50%] items-center justify-center space-x-5 rounded-lg bg-white p-3 text-center shadow-xl duration-300 sm:p-5 md:bottom-10 ${
+            className={`fixed bottom-5 left-1/2 z-[1000] flex -translate-x-1/2 items-center justify-center space-x-5 rounded-lg bg-white p-3 text-center shadow-xl duration-300 sm:p-5 md:bottom-10 ${
               isScrolled
                 ? 'translate-y-0 opacity-100'
                 : 'translate-y-[200px] opacity-100'

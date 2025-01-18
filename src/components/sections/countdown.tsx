@@ -59,7 +59,7 @@ const Countdown = () => {
             data-aos="fade-up"
             className="text-center font-pacifico text-xl font-medium text-white md:text-3xl"
           >
-            We're tying the knot on the 11th of November, 2023
+            We're tying the knot on the 1st of February, 2025
           </h3>
 
           <div

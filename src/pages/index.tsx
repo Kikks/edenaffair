@@ -1,4 +1,4 @@
-// import Registry from '../components/registry';
+import Registry from '../components/registry';
 import Countdown from '../components/sections/countdown';
 import Events from '../components/sections/events';
 import Gallery from '../components/sections/gallery';
@@ -19,7 +19,7 @@ const Home = () => {
       <Tag />
       <Gallery />
       {/* <Vendors /> */}
-      {/* <Registry /> */}
+      <Registry />
       <div className="h-[100px]" id="Footer" />
     </>
   );
